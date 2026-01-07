@@ -1,7 +1,7 @@
 1- setupt the github (repository)
-    a) new environment
-    b) setup.py
-    c) requirements.txt
+    a) new environment (conda create -p venv python==3.10)
+    b) setup.py  ()
+    c) requirements.txt  (pip install -r ./requirments.txt)
 
 2- src folder and build the package
 
