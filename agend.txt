@@ -2,6 +2,13 @@
     a) new environment (conda create -p venv python==3.10)
     b) setup.py  ()
     c) requirements.txt  (pip install -r ./requirments.txt)
+    d) run all git command to push and pull
 
-2- src folder and build the package
+2- src folder and build the package (with __init__.py)
 
+3- build project structure
+    a) components folder (data_ingestion for reading data from different source and split train and test data -
+       data_transformation for transform features like onehotencoding, change category features into numerical -
+       model_trainer for all models, metrics and so on)
+    b) pipline folder
+    c) logger - exception - utils in src folder
