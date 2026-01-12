@@ -1,5 +1,5 @@
 import sys
-import logger  # ensures logging.basicConfig runs
+#import logger  # ensures logging.basicConfig runs
 import logging
 
 def error_message_detail(error, error_detail: sys):
